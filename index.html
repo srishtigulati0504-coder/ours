@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<style>
+
+   body {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+      font-family: 'Poppins', sans-serif;
+    
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #fff;
+      text-shadow: 0 0 20px #ff4081, 0 0 30px #ff4081;
+      animation: glow 2s infinite alternate;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  border-right: 3px solid rgb(0, 0, 0);
+  white-space: nowrap;
+  overflow: hidden;  
+  display: inline-block; 
+  max-width: 100%;   
+  animation: typing 2s steps(40, end) , blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 22ch }  
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+    .heart {
+      position: absolute;
+      color: #e980a3;
+      font-size: 1rem;
+      animation: floatUp 3s linear infinite;
+    }
+
+    @keyframes floatUp {
+      from {
+        transform: translateY(100vh) scale(1);
+        opacity: 1;
+      }
+      to {
+        transform: translateY(-10vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+  </style>
+
+    <h1 id="typewriter"></h1>
+
+<script>
+  const text = "Happy Birthday Puchiii 🫶💕💋";
+  let i = 0;
+
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById("typewriter").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, 100);
+    }
+  }
+  window.onload = typeWriter;
+
+   function createHeart() {
+      const heart = document.createElement("div");
+      heart.classList.add("heart");
+      heart.innerHTML = "❤️";
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = (Math.random() * 3 + 3) + "s";
+      document.body.appendChild(heart);
+
+      setTimeout(() => {
+        heart.remove();
+      }, 6000);
+    }
+    setInterval(createHeart, 500);
+</script>
+    
+  
+    <div class="container">
+     <img src="me.jpg">
+<p>
+Happiest birthday sweetuuu😚🧿🫂🫶🏻 Wanted to you the best But you already have me🤧😁😌
+You bring so much happiness into my life every single day, 
+and your smile is enough to melt away all my worries🫂✨🪄thank you for loving me the way you do💋💋 for 
+always being there for me 🫶🏻🫶🏻 and for constantly inspiring me to be the best version of myself ✨💖 
+Today, I want you to know just how deeply
+ I LOVE YOU and how grateful I am for every moment we spend together 🫂🎀😚
+</p>
+    </div>
+<div>
+    <h2>Why You Are the ONE?</h2>
+</div>
+    <div class="gallery">
+        <p>
+          Yes!! you are the only one for me jisne muje jesi mai hun vaise hi
+           accept kiya itni kamiya hone ke baad bhi🥲🥲 You Are The One jo har 
+           choti choti cheez k liye muje appreciate krta 🫂❤ muje smjhta aur smjhata hmesha ✨ galtiyon pr dant ta😚 
+           babbyyy you bring out the best in me🥲✨ every moment spent with you feels right, and I know deep in my heart that no
+            one could ever mean as much as you do🎀🧸
+        </p>
+         <img src="p1.jpg">
+    </div>
+
+<div class="aa">
+  <img src="p3.jpg">
+  <p>
+  Yass!! You Are the one (hihi)😁 vo tum ho jo hmesha mere sth rehta jb koi na ho😚✨
+   mera dhyn rkhta 😌 you make me laugh when I don't even feel like smiling🤧🧿  
+   the one who makes my heart race, my cheeks blush and my lips smile without even trying🌝💕
+    you are the reason I believe in love and the reason I look forward to every single day.🌷🍃
+  </p>
+</div>
+<div >
+  <h2>50 Ways you makes me SMILE</h2>
+</div>
+<div class="gif">
+  
+  <p>
+1. Your smile brightens my day. 2. You always know how to make me laugh.
+ 3. Your shyness. 4 You listens to me with genuine interest. 5. Your jealousy. 
+ 6. Your eyes. 7. You make me feel safe. 8. Your hugs are the best. 9. Your silly jokes. 
+ 10. You bring out the best in me. 11. You're my best friend. 12. You accept me as I am. 13. Your love for annoying me. 
+ 14. The way you care for me. 15. you make even the ordinary moment special. 16. Your sense of humor ( sorry non sense) . 
+ 17. The way you look at me. 18. You are so patient (impatient). 20. You never give up on us. 21. You are my biggest cheerleader. 
+ 22. Your intelligence (pta nhi kyu hi likhri ye sab huhhh) 23. Your great tummy (heart). 24. Your loyalty. 25. You make me feel appreciated. 
+ 26. You smile. 27. You makes me a better person. 28. You are always there when I need you. 29. The way you hold my hand. 
+ 30. You're amazing listener. 31. You respect me. 32. You're honest with me. 33. You makes me feel special. 34. Your KISSES. 
+ 35. You're my favourite person. 36. Your caring nature. 37. when you  always trying to make me happy. 38. You make me feel loved. 
+ 39. You are my safe place. 40. You are my comfort. 41. My partner in everything. 42. You make me feel important. 
+ 43. Your patience with me. 44. Your loving nature. 45. Your dedication to us. .
+  </p>
+<img src="p2.jpg">
+ 
+</div>
+<h2>Our Journey Our Bond🫂</h2>
+<div class="pp">
+  <img src="p4.jpg">
+  <p>
+    Hahhhhh..... Vo din 23 feb 2024 aur aaj ka din 😩 soch skte ho itne se time mei itna chng ayega 
+    zindagi ka nya chapter start hoga 🌝kaha mai sidhi saadhi si ldki (hehe) phsa lia tumne (mene)🗣🗣
+     betaaa mud mud ke tou mai b dekhri thi😋😚 tumhe hi dhundhri hoti thi ankhein 👀 k aaya ni abhi tk🗣😁😶‍🌫😶‍🌫 
+     fr apni ijjat ki bina parwah kiye k kya sochoge tum niche ghumne bulaya hahhhhh😋😋✨
+      soham krte krte kya krre 😂 I didn’t expect that I would build such a good bond with someone in such a short time😚🌷
+      mai tou gaadi ko aaram se pyaar se chla ri thi huhhhh tumhari vjh se 5th gear p chldi gaadi 💋💞 
+      pr speed mei krne m hi tou mja aata 🌚🌝 koi ni koi ni achi thi speed jesi thi 💋💋
+       ab iss gaadi ko manzil tak b lekr jayenge🧿🫂
+  </p>
+</div>
+
+<div>
+  <h2>The One I Adore</h2>
+</div>
+<div class="ss">
+  <img src="p5.jpg">
+  <p>
+    You don't understand how much you actually mean to me and I care about you 
+    a lot more than myself !! ✨✨ I just want to make you smile!! 😚 When I see you or even get a simple
+     text for you my whole day brightens up it's so 😍 how you can say tiddi and put a smile on my face😁😁 
+     I love when you laugh and I just love being with you🪄🪄when I am with you I'm happy, when we hug it's like
+      I don't ever want to let go, when you make me smile it brings the sunshine out in me , when I see you and our eyes meet , 
+      it's like something I've never felt before👀🌷
+  </p>
+
+</div>
+<div class="rr">
+  <!-- <img src="p6.jpg"> -->
+  <p>
+    I know I'm not perfect. I know I have flaws. I know that I can be annoying and I know I can be quiet. 
+    I know I can be mean. I know I can be nice. I might not always mean that I say, 
+    but I care I know I can be a stupid sometimes. I might not ever seem stunning or gorgeous to you 
+    but I can make you happy😊 make u smile . Make you laugh . Make u wanted😘🫂
+     I would only have one because you never leave my mind.. you are my first thought when I wake up
+      and my last thought when I go to bed✨🌷
+  </p>
+  <img src="p6.jpg">
+</div>
+<div>
+  <h2>Our Promises</h2>
+</div>
+<div class="ii">
+  <img src="p7.jpg">
+  • We will never give up on each other<br><br>
+• Nothing will hide from each other<br><br>
+• No 3rd person between us also in case of fight<br><br>
+• We will prioritize each other (untill or unless it's not possible)<br><br>
+</div>
+<div class="hh">
+  <p>
+    I promise to give you the best of myself. I promise to share with you my time and my attention.
+     i promise to keep myself open to you, i promise to grow along with you, to be willing to face
+      changes in order to keep our relationship alive and exciting. i promise to love you in good times
+       and bad, with all i have to give and all i feel inside in the only way i know how. i wont't promise
+        that i'll always be there to listen or talk. but i promise that i'll never let you walk lonely,
+         in the dark.<b>i'll stay</b> that's what i promised you. i'll stay when it gets hard. i'll stay
+          when everone else around you leaves. i'll always be there for you. <b>I promise</b>
+  </p>
+  <img src="p8.jpg">
+</div>
+<div>
+  <h2>A Message From Heart</h2>
+</div>
+<div class="tt">
+  <img src="p10.jpg">
+  <p>
+    Bhaiii🫠 muje smjh hi ni aara kya likhuuu vese mai itne bde bde para likh deti chat p do baar read more dbana pdhe abhi smjh hi na aara 😒🥱
+  </p>
+</div>
+
+<div class="yy">
+  <p>
+    Cute tou ho tum 🫂🫶🏻😚 yrr smjh ni aara kya likhu dekho mai kuch b likhri hun kuki
+     mn krra hai likhne ka pr pta ni kya likhri tou never mind 😭😭 meko bss rona aata hai 
+     aur kuch ni aata pta ni kese reh re tum Rondu k sth 😶‍🌫😶‍🌫 aur rote hue sirf mai achi lgti hun 😒
+      (tum nhi)  I LOVE YOU MERI PUCHII mai hmesha tumhare sth hun aur rhungi bhi ye baat likh lo dimaag
+      mei mai nhi jaari kahi bhi nhi behkti mai koi aa b gya tou tumhari hun tumhari hi rehna🫂🫂🫂✨ 
+      ese thodi na jaa kahi jaungi tum Jane b n doge 😚🫶🏻 jo b overthink krte tum sochte vo sbko hota 
+      i accept kbhi ye mtt sochna ke haa tumme ye chiz jada hai tou muje dikkt hogi ese thodi hota ab mai
+       bhi yehi sochu ke haa mai jada gussa krti ya mai jada roti hun use dikkt hogi🙂‍↔🙂‍↔
+       no mai isi liye tou hun yha tumhe comfort dene k liye 🫶🏻😚 kya fayida mera agr mai in baato k
+        piche naraz hou ya baat pkd k baith jau esi mtt socha kro sweetie 🎀💞  SRISHTI tumhari hi hai😁💋😋 
+        srishti ne shaadi krke tumhari mmy k saath team bnakr tumhari chuglia bhi krni haii aur tumhe tinde bhi khilane hai😁😘🫶🏻 
+        I'm always there for you whether it's good or bad situation 💗🪄  mere liye bss tum ho aur koi ni ghrvalo 
+        k bdd aur muje pta hai tumne hi rehna tou kyu sochna baaki ka jab end mei ham dono ne rehna🫂🫂🫂
+         logo ko maaro goli 🔫🔫 huhhhhh tumhari bndi gundi hai pta hai na koi preshn krein ek call bss 😁💪🏻💪🏻 
+         i always love youuuu puchhiiiiiiii🎀😚💞💗🫶🏻💋
+  </p>
+<img src="p9.jpg">
+</div>
+<div>
+  <h1>Again Happy Birthday Meri Jaan🎀💞 </h1>
+</div>
+<div>
+  <h1>I LOVE YOU🎀😚💞💋</h1>
+</div>
+</body>
+</html>

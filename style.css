@@ -1,0 +1,284 @@
+
+
+   .container {
+      display: flex;               
+      align-items: flex-start;         
+      justify-content: flex-start; 
+      padding: 10px;
+    }
+
+    .container p {
+      font-size: 18px;
+      line-height: 2.6;
+      max-width: 500px; 
+      margin-top: 70px;
+    }
+.container img{
+    position:relative;
+    left:100px;
+    width:450px;
+    height:350px;
+     border: 5px solid black;
+     margin-top: 75px;
+    margin-right: 300px;
+    border-radius: 15px; 
+      box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3); 
+}
+ h2{
+   color:rgb(0, 0, 0);
+    text-align:center;
+   font-size: 50px;
+   margin-left: 50px;
+   font-family: serif;
+   background-color: #ff9a9e;   
+  border: 5px double #333;    
+  display: inline-block;
+ }
+.gallery{
+        display: flex;               
+      align-items: flex-start;         
+      justify-content: flex-start; 
+      padding: 50px;
+      
+    }
+    .gallery p {
+        margin-top: 50px;
+        font-size: 18px;
+      line-height: 2.6;
+      max-width: 500px; 
+      margin-left: 80px;
+      
+    }
+    .gallery img {
+  display: block;
+  margin-top: 20px;
+  margin-left: 200px; 
+  width: 550px;
+  height: 350px;
+  border: 5px solid black;
+  border-radius: 15px; 
+      box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3); 
+}
+    
+ .aa{
+        display: flex;               
+      align-items: flex-start;         
+      justify-content: flex-start; 
+      padding: 50px;
+      
+    }
+
+.aa p {
+    font-size: 18px;
+    line-height: 2.6;
+    max-width: 500px;
+    margin-top: 150px;
+}
+.aa img{
+ position:relative;
+    left:100px;
+    width:450px;
+    height:600px;
+     border: 5px solid rgb(0, 0, 0);
+     /* margin-top: 115px; */
+    margin-right: 300px;
+      border-radius: 15px; 
+      box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3); 
+
+}
+.gif{
+        display: flex;               
+      align-items: flex-start;         
+      justify-content: space-between; 
+      padding:50px;
+    
+}
+.gif p{
+  font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+    /* margin-top: 50px; */
+    margin-right: 250px;
+    margin-left: 100px;
+    
+}
+.gif img{
+   display: block;
+  margin-top: 20px;
+  margin-left: 50px; 
+  margin-right:150px;
+  width: 500px;
+  height: 550px;
+  border: 5px solid black;
+  border-radius: 15px; 
+      box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3); 
+}
+.pp {
+  display: flex;
+  align-items: center;   /* centers paragraph and image vertically */
+  justify-content: space-between;
+  gap: 200px;             /* spacing between p and img */
+  padding: 50px;
+}
+
+.pp p {
+  font-size: 18px;
+  line-height: 2.4;
+  max-width: 500px;
+  margin: 0;             /* remove big margin-top */
+}
+
+.pp img {
+  width: 450px;
+  height: 600px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3);
+  margin: 0;             /* reset margins */
+}
+.ss {
+  display: flex;
+  align-items: center;      /* centers text vertically with image */
+  justify-content: space-between;
+  gap: 100px;                /* clean spacing between text & image */
+  padding: 50px;
+}
+
+.ss p {
+  font-size: 18px;
+  line-height: 2.6;
+  max-width: 500px;
+  margin: 0;                /* remove unnecessary margins */
+}
+
+.ss img {
+  display: block;
+  width: 600px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3);
+}
+
+
+.rr {
+  display: flex;
+  align-items: center;              /* vertical center */
+  justify-content: space-between;   /* text left, image right */
+  padding: 50px;
+  gap:200px;
+}
+
+.rr p {
+  margin-top: 200px;
+  font-size: 18px;
+  line-height: 2.6;
+  max-width: 500px;
+  margin: 0;                        /* keep paragraph clean on left */
+}
+
+.rr img {
+
+  margin-top: 500px;
+  width: 400px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3);
+  margin: 0;                        /* reset margins so it stays on right */
+}
+.ii {
+  display: flex;
+  align-items: center;      /* centers text vertically with image */
+  justify-content: space-between;
+  gap: 100px;                /* clean spacing between text & image */
+  padding: 50px;
+}
+
+.ii p {
+  font-size: 18px;
+  line-height: 2.6;
+  max-width: 500px;
+  margin: 0;                /* remove unnecessary margins */
+}
+
+.ii img {
+  display: block;
+  width: 600px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3);
+}
+.hh {
+  display: flex;
+  align-items: center;              /* vertical center */
+  justify-content: space-between;   /* text left, image right */
+  padding: 50px;
+  gap:200px;
+}
+
+.hh p {
+  margin-top: 200px;
+  font-size: 18px;
+  line-height: 2.6;
+  max-width: 500px;
+  margin: 0;                        /* keep paragraph clean on left */
+}
+
+.hh img {
+
+  margin-top: 500px;
+  width: 450px;
+  height: 600px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3);
+  margin: 0;                        /* reset margins so it stays on right */
+}
+.tt {
+  display: flex;
+  align-items: center;      /* centers text vertically with image */
+  justify-content: space-between;
+  gap: 100px;                /* clean spacing between text & image */
+  padding: 50px;
+}
+
+.tt p {
+  font-size: 18px;
+  line-height: 2.6;
+  max-width: 500px;
+  margin: 0;                /* remove unnecessary margins */
+}
+
+.tt img {
+  display: block;
+  width: 700px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3);
+}
+.yy {
+  display: flex;
+  align-items: center;            /* vertically center text and image */
+  justify-content: space-between; /* push text left, image right */
+  padding: 50px;
+  gap: 100px;                     /* space between text & image */
+}
+
+.yy p {
+  margin-top: 200px;
+  font-size: 18px;
+  line-height: 2;
+  max-width: 500px;
+  margin: 0;                      /* remove unnecessary margins */
+}
+
+.yy img {
+  width: 500px;
+  height: 700px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(239, 62, 62, 0.3);
+}
